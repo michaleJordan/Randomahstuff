@@ -1468,7 +1468,7 @@ class NationalDeskHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    HOST, PORT = "0.0.0.0", 1111
+    HOST, PORT = "0.0.0.0", 8501
     print("==================================================================")
     print(" VERIFIED: NATIONAL DESK // BILINGUAL (EN/AR) FTS5 SERVER ONLINE")
     print(f" Open your browser to: http://{HOST}:{PORT}")
