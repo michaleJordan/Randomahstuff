@@ -1474,6 +1474,7 @@ if __name__ == "__main__":
     print(f" Open your browser to: http://{HOST}:{PORT}")
     print(" Press Ctrl+C to shut down.")
     print("==================================================================")
+    HTTPServer.allow_reuse_address = True
     server = HTTPServer((HOST, PORT), NationalDeskHandler)
     try:
         server.serve_forever()
